@@ -12,7 +12,7 @@ import java.io.Serializable;
  * @since JDK 1.8
  */
 @Entity
-public class Student implements Serializable {
+public class Student {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     @Column
